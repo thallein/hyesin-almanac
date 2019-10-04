@@ -1,18 +1,16 @@
 <template lang="pug">
   div(id="app")
-    head
-      link(rel="shortcut icon" type="image/x-icon" href="favicon.ico")
-    Header
+    Nav
     RouterView
 </template>
 
 <script>
-import Header from './components/header/header'
+import Nav from './components/header/nav'
 
 export default {
   name: 'app',
   components: {
-    Header
+    Nav
   }
 }
 </script>
@@ -24,5 +22,4 @@ export default {
   -moz-osx-font-smoothing grayscale
   text-align center
   color #2c3e50
-  margin-top 60px
 </style>

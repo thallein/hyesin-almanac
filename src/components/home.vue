@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    h1(class='weight') Hello World!
+    h1 Hello World!
 </template>
 
 <script>
