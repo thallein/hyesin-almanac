@@ -5,7 +5,7 @@ set -e
 CLIENT_SERVICE="app"
 APP_NAME="cypress-ui"
 CLIENT_IMAGE="appname"
-CLIENT_PORT="8090:8090"
+CLIENT_PORT="8001:8001"
 NETWORK="ui-test-net"
 
 function usage() {
