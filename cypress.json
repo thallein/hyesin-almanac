@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://www.example.com",
+  "ignoreTestFiles": "*.js",
+  "chromeWebSecurity": false,
+  "video": false,
+  "reporter": "mocha-allure-reporter"
+}

@@ -1,5 +1,3 @@
-module.exports = {
-  presets: [
-    '@vue/app'
-  ]
-}
+module.exports = process.env.CYPRESS_ENV
+  ? {}
+  : { presets: [ '@vue/app' ] }
